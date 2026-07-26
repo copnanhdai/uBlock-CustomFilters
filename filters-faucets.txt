@@ -11,6 +11,7 @@
 
 !BITCOTASK
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12618435
+@@$ghide,domain=bitcotasks.com
 ||rollercoin.com^$image,3p,redirect-rule=1x1.gif,domain=bitcotasks.com
 ||bitcotasks.com/popad*$redirect=popads.js
 @@||bitcotasks.com/captcha2/*
