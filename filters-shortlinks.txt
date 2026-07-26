@@ -466,7 +466,7 @@ gmzko.online,pinkbella.com.br,recipesfactor.com,radiology.com.br##[src*="/ad-fra
 lovemodz.space##[class^="sl"], [id^="sl"]:others()
 lovemodz.space##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='setInterval(() => { let a = new URLSearchParams(location.search).get("alias")\, b = document.querySelector("#sl-s-next a"); if (a && b) { b.href = "https://bit.encurtacash.com.br/" + a; b.onclick = null; } }\, 500);'>)
 
-bitdown.site##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function(){ const fromLS=localStorage.getItem("sl_step4url"); const fromCK=document.cookie.split("; ").reduce(function(acc\,c){ const[k\,v]=c.split("="); return k==="safelink_step4_url"?decodeURIComponent(v||""):acc; }\,""); const url=fromLS?decodeURIComponent(fromLS):fromCK; if(url&&url.includes("pingulink")){ const a=document.querySelector("#sl-s-next>a"); if(a) a.setAttribute("href"\,url); } })();'>)
+bitdown.site##+js(rpnt, script, alias;, alias; const a=document.querySelector("#sl-s-next>a"); if(a) a.setAttribute("href"\,step4Url);, includes, slCaptchaOk)
 bitdown.site##+js(rpnt, script, /var redirectUrl\s*=\s*["'][^"']+["']/, var redirectUrl="https://encurtacash.com.br/"+(document.cookie.match(/(?:^|;\s*)safelink_alias=([^;]+)/)||[])[1], includes, redirectUrl)
 bitdown.site##+js(rpnt, script, /const redirectUrl\s*=\s*["'][^"']+["']/, const redirectUrl=decodeURIComponent((document.cookie.match(/(?:^|;\s*)safelink_step4_url=([^;]+)/)||[])[1]))
 bitdown.site##+js(rpnt, script, /var t\s*=\s*\d+/, var t=15, includes, redirectUrl)
