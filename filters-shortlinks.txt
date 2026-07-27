@@ -84,13 +84,9 @@ ecofriendlyz.com,homesteadfeast.com,virtualrealitieshub.com,playallgames.net,bre
 
 !ADLINK
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12555848
-maqal360.com##+js(rpnt, script, /var SEC = \d+;/, var SEC = 1;)
-maqal360.com###cap-box:style(display: block !important)
-maqal360.com###cap-submit:remove-attr(disabled)
-maqal360.com,diudemy.com###countdown-wrapper, .go_next, .bypass-card, #cap-box, #step-ok, #cta-btn:others()
-maqal360.com,diudemy.com###skip-btn:style(display: block !important)
-maqal360.com,diudemy.com##+js(acs, document.onkeydown)
-maqal360.com,diudemy.com##+js(aeld, contextmenu)
+||maqal360.com/secure.php$uritransform=/^https?:\/\/(?:www\.)?maqal360\.com\/secure\.php\?id=([A-Za-z0-9_-]+)(?:&.*)?$/https:\/\/www.maqal360.com\/home.php?code=$1/
+maqal360.com##+js(trusted-create-html, body, <img src='/n5dev.png' onerror='(function() { const a = new URLSearchParams(location.search).get("code"); if (a !== "" && a === null) return; const u = "https://blog.adlink.click/" + a; const c = document.createElement("div"); Object.assign(c.style\, { position: "fixed"\, top: "300px"\, left: "50%"\, transform: "translateX(-50%)"\, zIndex: "2147483647"\, background: "linear-gradient(135deg\, var(--amber)\, #e8942a)"\, color: "#1a1206"\, padding: "10px"\, fontSize: "24px"\, textAlign: "center"\, fontWeight: "bold"\, borderRadius: "4px" }); document.body.appendChild(c); let t = 10; let iv = setInterval(() => t-- > 0 ? c.innerText = "WAIT " + t + "s" : (clearInterval(iv)\, c.remove()\, location.assign(u))\, 1000); c.innerText = "WAIT 10s"; })();'>)
+adlink.click##+js(set, blurred, false)
 
 !BITAD
 !https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12456971
