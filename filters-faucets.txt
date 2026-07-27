@@ -34,8 +34,10 @@ bitcotasks.com##:matches-path(/post) .faucet-card, #clickMessage, .banner, [src*
 !VIEFAUCET
 viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > iframe)
 viefaucet.com##.el-row:has(.wait-container):style(justify-content: center)
-viefaucet.com##.offerwall-widget, .coinsgame, div:has(> #bm-720)
+viefaucet.com##.offerwall-widget, .coinsgame, #bm-720
 viefaucet.com##+js(nosiif, this.timerRef, 2000)
+viefaucet.com##+js(trusted-create-html, body, <img style='display: none' src='/n5dev.png' onerror='let _h = 0\, _s = 0; const _o = window.open; const fw = { closed: false\, opener: null\, location: { href: "" }\, document\, window }; const check = () => { const ok = location.pathname === "/app/ptc/window" && !!document.querySelector("#pane-window .el-row > .el-col"); if (ok !== _s) { _s = ok; if (ok) { Object.defineProperty(document\, "hidden"\, { get: () => _h\, configurable: false }); Object.defineProperty(document\, "visibilityState"\, { get: () => (_h ? "hidden" : "visible")\, configurable: false }); window.open = () => fw; } else { window.open = _o; } } _h = ok; document.dispatchEvent(new Event("visibilitychange")); }; window.addEventListener("popstate"\, check); new MutationObserver(check).observe(document.body\, { childList: true\, subtree: true }); const op = history.pushState; history.pushState = function(...a) { check(); return op.apply(this\, a); }; history.replaceState = function(...a) { check(); return op.apply(this\, a); };'>)
+$3p,frame,denyallow=cloudflare.com|bitcotasks.com|offerwall.me|timewall.io|youtube.com,redirect=noopframe,domain=viefaucet.com
 
 !FEYORRA
 !https://github.com/Suurp/FiltersUBO/issues/4
