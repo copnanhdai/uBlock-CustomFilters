@@ -63,6 +63,12 @@ get-to.link##+js(aeld, DOMContentLoaded, /overlay|hover-message/)
 
 !FLY.INC - 7MB.IO
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-12437078
+
+*##+js(trusted-set-attr, a[href*="7mb.io"], rel, noreferrer)
+*##+js(trusted-set-attr, a[href*="rinku.me"], rel, noreferrer)
+||rinku.me^$uritransform=/^https?:\/\/.*get%3D([A-Za-z0-9]+).*/https:\/\/rinku.me\/flyinc.\/\$1/
+||7mb.io^$uritransform=/^https?:\/\/.*get%3D([A-Za-z0-9]+).*/https:\/\/7mb.io\/flyinc.\/\$1/
+
 resams.com,giklu.com,animalnicknames.com,webirinci.com,gbinstahub.com,jobsevery.com,bispehsaasprogram.com,quoteminia.com,jobify.pk,todaypage.web.id,progame.biz.id,cararabic.com,teknoventure.biz.id,jobpagol.com,barlianta.com,desimonthdate.com,pubwise.xyz,digitalbangla360.com,ismedia.my.id,mortgageloanapplyonline.com,vizesizulkeler.org,restaurantspk.com,postalcode.com.pk,learntechit.com,livingwithragdoll.com,pakgovtnaukri.pk,bikkhatobd.com,honhaarscholarship.pk,adilcevaztv.com,esladvice.com,islamicpdfbook.com##+js(set, document.hasFocus, trueFunc)
 resams.com,giklu.com,animalnicknames.com,webirinci.com,gbinstahub.com,jobsevery.com,bispehsaasprogram.com,quoteminia.com,jobify.pk,todaypage.web.id,progame.biz.id,cararabic.com,teknoventure.biz.id,jobpagol.com,barlianta.com,desimonthdate.com,pubwise.xyz,digitalbangla360.com,ismedia.my.id,mortgageloanapplyonline.com,vizesizulkeler.org,restaurantspk.com,postalcode.com.pk,learntechit.com,livingwithragdoll.com,pakgovtnaukri.pk,bikkhatobd.com,honhaarscholarship.pk,adilcevaztv.com,esladvice.com,islamicpdfbook.com##+js(trusted-suppress-native-method, Storage.prototype.setItem, '/mustClickAd/|"1"', prevent)
 resams.com,giklu.com,animalnicknames.com,webirinci.com,gbinstahub.com,jobsevery.com,bispehsaasprogram.com,quoteminia.com,jobify.pk,todaypage.web.id,progame.biz.id,cararabic.com,teknoventure.biz.id,jobpagol.com,barlianta.com,desimonthdate.com,pubwise.xyz,digitalbangla360.com,ismedia.my.id,mortgageloanapplyonline.com,vizesizulkeler.org,restaurantspk.com,postalcode.com.pk,learntechit.com,livingwithragdoll.com,pakgovtnaukri.pk,bikkhatobd.com,honhaarscholarship.pk,adilcevaztv.com,esladvice.com,islamicpdfbook.com##+js(set-session-storage-item, /mustClickAd\d+/gm, $remove$)
