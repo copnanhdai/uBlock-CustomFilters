@@ -534,3 +534,16 @@ viepositive.cc,techfacile.cc,santenaturelle.cc,peaueclat.com,mode-parisienne.com
 adolly.me##+js(set, blurred, false)
 ||pexels.com$domain=viepositive.cc|techfacile.cc|santenaturelle.cc|peaueclat.com|mode-parisienne.com|maisonelegante.cc|lejardinvert.cc|espritnomade.cc|cuisine-minute.com|argentintelligent.com
 ||blogger.com$domain=viepositive.cc|techfacile.cc|santenaturelle.cc|peaueclat.com|mode-parisienne.com|maisonelegante.cc|lejardinvert.cc|espritnomade.cc|cuisine-minute.com|argentintelligent.com
+
+!DOWSFAUCET
+!https://dowsfaucet.com/sh/shortlink.php?alias=5c5nv64
+$3p,script,domain=surkhave.com|dowsfaucet.com|technirom.com
+surkhave.com##iframe[src^="/redir"]:others()
+surkhave.com##+js(nano-sib, timer, *, 0.002)
+
+@@$ghide,domain=dowsfaucet.com
+dowsfaucet.com##+js(trusted-set-attr, .reveal-stack:has(> #btn-final-continue), class, 'reveal-stack is-open')
+dowsfaucet.com##+js(nano-sib, countdown, *, 0.002)
+dowsfaucet.com###step-captcha:style(display: block !important)
+technirom.com,dowsfaucet.com##.top-tracker, #btn-final-continue, #captcha-ui-core, #step-waiting, #sk-bait-adsbox, #ad-banner, [src*="newassets.hcaptcha.com/captcha/"]:others()
+technirom.com###step-captcha:remove-class(sk-hidden-el)
