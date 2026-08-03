@@ -184,6 +184,9 @@ multimix.site,mcafee-com.com,dailynewshub.fun,multimix.site,coinilium.net,liln.f
 
 !COINCLIX
 ! https://github.com/uBlockOrigin/uAssets/discussions/27472#discussioncomment-13585108
+
+||dereferer.me$urlskip=/^https?:\/\/dereferer\.me\/\?(.+)$/
+
 coinclix.co##+js(nostif, , /1000|500/)
 coinclix.co##.row:has([id*="ad-tp"]), .card:has([id*="ad-bt"])
 
