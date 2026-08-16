@@ -30,6 +30,7 @@ bitcotasks.com##:matches-path(/lead) .surfbar, #validateVisit, [id^=aab_ad]:othe
 bitcotasks.com,ad-doge.com##:matches-path(/blog) #cf-turnstile-container, #scrollMessage, #progressBarContainer, #contbutt:others()
 bitcotasks.com,ad-doge.com##+js(rpnt, script, document.hasFocus(), true, condition, scrollMessage)
 bitcotasks.com##:matches-path(/post) .faucet-card, #clickMessage, .banner, [src*="newassets.hcaptcha.com/captcha/"], .swal2-container:others()
+bitcotasks.com##+js(no-fetch-if, /adsbygoogle.js|gpt.js/, length:111000)
 
 !VIEFAUCET
 viefaucet.com##.el-col:not(:has(> .claim-faucet, .wait-container)):has(> .ads > iframe)
