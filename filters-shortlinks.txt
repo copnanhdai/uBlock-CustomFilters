@@ -12,6 +12,8 @@
 !ELITETORRENT - INFOMANIAKOS
 enlace-protegido.com,acortame-esto.com##+js(rpnt, script, "var ms_ads = 'si';", 'var ms_ads="si";(function(){var a=location.href.split("#");if(a&&a[1]){a=a[1];for(var c=0;10>c;c++)try{a=atob(a)}catch(f){var d=a.replace(/[a-zA-Z]/g,function(b){return String.fromCharCode(("Z">=b?90:122)>=(b=b.charCodeAt(0)+13)?b:b-26)});try{new URL(d);var e=!0}catch(b){e=!1}if(e){window.location=d;break}}}})();')
 
+@@||bitcotasks.com^$script,subdocument,xhr,domain=ecofriendlyz.com|homesteadfeast.com|virtualrealitieshub.com|playallgames.net|brewmasterly.com|countriesguide.net|carstopia.net|illustrationmaster.com|speakzyo.com|languagefluency.net|selfcareinsights.com|furtnitureplanet.net|gizmoera.com|techiephone.com|renovatehub.net|retrocove.net|geotides.net|chownest.com|lifeprovy.com|vaultfind.net|tastywhiz.com|gamestopia.net|gputrends.net|mythnest.com|plantsguide.net|wiki-topia.com|makeupguide.net|wanderjourney.net|fitbodygenius.com|origamiarthub.com|dailytech-news.eu|petsguide.net|hobbymania.net|constructorspro.com|insurancegold.in|cinemascene.net|tvseriescentral.net|cookinguide.net|carsmania.net|melodyspot.net|webfreetools.net|coinsrise.net|coinstrend.net|funplayarcade.com|gadgetbuzz.net|insurancexguide.com|coinscap.info|coinsvalue.net|giftmagic.net|freeoseocheck.com|cryptowidgets.net
+
 !PELISENHD
 tulink.org##+js(aeld, keydown)
 tulink.org##+js(aopr, document.onkeydown)
